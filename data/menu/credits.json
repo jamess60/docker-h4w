@@ -1,0 +1,27 @@
+{
+  "title": "Credits",
+
+  "items": [
+    {
+      "title": "Hw4 Github page",
+      "icon": "image/icons/win311/NOTEP001.PNG",
+      "href": "https://github.com/evert/h4w"
+    },
+    {
+      "title": "docker-Hw4 Github page",
+      "icon": "image/icons/win311/NOTEP001.PNG",
+      "href": "https://github.com/jamess60/docker-h4w"
+    },
+    {
+      "title": "NPM package",
+      "icon": "image/icons/win311/PACKA001.PNG",
+      "href": "https://www.npmjs.com/package/hl4wg"
+    },
+
+    {
+      "title": "Dockerhub",
+      "icon": "image/icons/win311/SOUND001.PNG",
+      "href": "https://hub.docker.com/repository/docker/jamess60/docker-h4w/general"
+    }
+  ]
+}

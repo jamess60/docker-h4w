@@ -1,0 +1,47 @@
+{
+  "title": "Homelab for Workgroups",
+
+  "items": [
+    {
+      "title": "Jellyfin",
+      "href": "https://jellyfin.example.com/"
+    },
+
+    {
+      "title": "Immich",
+      "href": "https://immich.example.com/"
+    },
+
+    {
+      "title": "Seerr",
+      "href": "http://seerr.example.com/"
+    },
+
+    {
+      "title": "Home Assistant",
+      "href": "https://homeassistant.example.com/"
+    },
+
+    {
+      "title": "Sonarr",
+      "href": "http://sonarr.example.com/"
+    },
+
+    {
+      "title": "Radarr",
+      "href": "http://radarr.example.com/"
+    },
+
+    {
+      "title": "Deluge",
+      "icon": "image/icons/homelab/deluge.png",
+      "href": "http://deluge.example.com/"
+    },
+
+    {
+      "title": "Router",
+      "icon": "image/icons/win311/RASST001.PNG",
+      "href": "http://192.168.0.1/"
+    }
+  ]
+}

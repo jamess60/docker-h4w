@@ -1,0 +1,9 @@
+services:
+    docker-h4w:
+        container_name: docker-h4w
+        image: jamess60/docker-h4w:latest
+        ports:
+            - "3111:3111"
+        volumes:
+            - /wherever/you/put/the/data/dir:/app/data
+        restart: unless-stopped
