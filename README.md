@@ -17,6 +17,16 @@ A lightweight Docker deployment for [evert/h4w](https://github.com/evert/h4w).
 4) Edit the icons & URLs according to [Evert's instructions](https://github.com/evert/h4w/blob/main/README.md)
 
 
+## Adding Custom Icons 
+By default, the icons are baked into the npm app. By creating a 2nd docker mount and by manually restoring the included icons, we can add our own! 
+1) Add a second bind mount in dockercompose.yml which is /your/path/etc/whatever:/app/frontend/image/icons
+2) Git clone the [evert/h4w](https://github.com/evert/h4w) repository to somewhere such as /tmp
+3) Move contents of h4w/frontend/image/icons to whatever path is your 2nd bind mount 
+4) Optional but recommended for cleanliness/maintainability  - under the icons dir, create a subdir (eg: extraimgs)
+5) Add your custom icons to the directory - they must be 32x32 PNG files. 
+6) Reference your new icons within the home.json file 
+
+I plan to include some of my own eventually to save you the leg work :) 
 
 
 ## Changelog
