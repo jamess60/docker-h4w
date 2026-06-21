@@ -26,8 +26,7 @@ By default, the icons are baked into the npm app. By creating a 2nd docker mount
 5) Add your custom icons to the directory - they must be 32x32 PNG files. 
 6) Reference your new icons within the home.json file 
 
-I plan to include some of my own eventually to save you the leg work :) 
-
+I have included some additional images in the extraimg dir. Please also feel free to submit merge requests with your own additional icons :) 
 
 ## Changelog
 ### Version 1.0
