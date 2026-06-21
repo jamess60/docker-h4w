@@ -17,16 +17,6 @@ A lightweight Docker deployment for [evert/h4w](https://github.com/evert/h4w).
 4) Edit the icons & URLs according to [Evert's instructions](https://github.com/evert/h4w/blob/main/README.md)
 
 
-## Repo Structure 
-.
-├── data 
-│   └── #Map me as a docker volume
-├── h4w 
-│   └── #Latest version of evert/h4w when last updated
-├── dockerfile.txt 
-│   └── #Used to build the container image
-└── dockercompose.yml 
-    └── #Run me
 
 
 ## Changelog
